@@ -31,7 +31,7 @@ plt.xlabel('x', fontsize = 10)
 plt.ylabel('tanh(x)', fontsize = 10)
 
 h = plt.plot(x, y/np.abs(y).max()) # Plot the derivates of the tanh derivate functions
-plt.savefig('/Users/dr.a.schelle/Desktop/IUBH/DLBDSIDSD/Lektion_1/Python_Examples/fig_1.png') # Save the figure to the correct path - Note: find the correct path with terminal call 'pwd'
+plt.savefig('/path_to_figure/') # Save the figure to the correct path. You can find your path with the command 'pwd'.
 
 for k in range(len(y)-1):
 

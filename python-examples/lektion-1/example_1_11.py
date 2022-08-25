@@ -44,5 +44,5 @@ plt.figure(1) # Initiate plot of figure
 plt.xlabel('$\mu=\mu_1+\mu_2+\mu_3+\mu_4+\mu_5$', fontsize = 10)
 plt.ylabel('$f(\mu)$', fontsize = 10)
 plt.hist(f, bins = 500) # Plot the figure
-plt.savefig('/Users/dr.a.schelle/Desktop/IUBH/DLBDSIDSD/Lektion_1/Python_Examples/fig_2.png') # Save the figure to the correct path. You can find your path with the command 'pwd'.
+plt.savefig('/path_to_figure/') # Save the figure to the correct path. You can find your path with the command 'pwd'.
 

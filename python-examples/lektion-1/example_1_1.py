@@ -21,4 +21,4 @@ plt.figure(1) # Initiate plot of figure
 plt.xlabel('x', fontsize = 10)
 plt.ylabel('cos(x)', fontsize = 10)
 plt.plot(x,f) # Plot the figure
-plt.savefig('/Users/dr.a.schelle/Desktop/IUBH/DLBDSIDSD/Lektion_1/Python_Examples/fig_2.png') # Save the figure to the correct path. You can find your path with the command 'pwd'.
+plt.savefig('/path_to_figure/') # Save the figure to the correct path. You can find your path with the command 'pwd'.
