@@ -1,28 +1,24 @@
-####################################################################################################################
-#                                                                                                                  #
-#    Autor: Dr. A. Schelle. Copyright : IU Internationale Hochschule GmbH, Juri-Gagarin-Ring 152, D-99084 Erfurt   #
-#                                                                                                                  #
-####################################################################################################################
+
+#########################################################################################################################################
+#                                                                                                                                       #
+#    Autor: Dr. A. Schelle (support@krealix.de). Copyright : IU Internationale Hochschule GmbH, Juri-Gagarin-Ring 152, D-99084 Erfurt   #
+#                                                                                                                                       #
+#########################################################################################################################################
+
+# PYTHON ROUTINE zur Berechnung von Funktionswerten einer Cosinusfunktion #
 
 import os
 import sys
 import math
+import numpy
+import numpy as np
+import matplotlib.pyplot as plt
 
-jg = 0.0 # Yearly income
-sl = 0.0 # Hourly income
+x = np.linspace(-10,10,100) # Define linear Linespace (linear grid)
+f = np.cos(x) # Define cosinus function on grid
 
-ghk = ''; # Income class
-
-print('Bitte geben Sie den vorgeschlagenen Stundenlohn in Euro an :')
-
-sl = input()
-
-jg = 12.0*float(sl)*160.0 # Yearly income at average of 160 hours per month.
-
-print (jg)
-
-if (jg < 15000.0) : ghk = 'Geringverdiener'
-if (jg >= 15000.0 and jg < 50000.0) : ghk = 'Normalverdiener'
-if (jg > 50000.0) : ghk = 'Vielverdiener'
-
-print ('Mit einem Jahresgehalt von'), jg, (' Euro sind Sie : '), ghk
+plt.figure(1) # Initiate plot of figure
+plt.xlabel('x', fontsize = 10)
+plt.ylabel('cos(x)', fontsize = 10)
+plt.plot(x,f) # Plot the figure
+plt.savefig('/Users/dr.a.schelle/Desktop/IUBH/DLBDSIDSD/Lektion_1/Python_Examples/fig_2.png') # Save the figure to the correct path. You can find your path with the command 'pwd'.

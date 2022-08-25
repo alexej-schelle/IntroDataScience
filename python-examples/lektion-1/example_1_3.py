@@ -1,23 +1,30 @@
-####################################################################################################################
-#                                                                                                                  #
-#    Autor: Dr. A. Schelle. Copyright : IU Internationale Hochschule GmbH, Juri-Gagarin-Ring 152, D-99084 Erfurt   #
-#                                                                                                                  #
-####################################################################################################################
+#########################################################################################################################################
+#                                                                                                                                       #
+#    Autor: Dr. A. Schelle (support@krealix.de). Copyright : IU Internationale Hochschule GmbH, Juri-Gagarin-Ring 152, D-99084 Erfurt   #
+#                                                                                                                                       #
+#########################################################################################################################################
+
+# PYTHON ROUTINE zur einfachen Illustration von Aufbau künstlicher Intelligenz #
 
 import os
 import sys
 import math
 
-M = [[1,4,3], [2,4,4], [3,3,3]] # First Matrix M
-N = [[2,4,3], [6,6,7], [2,2,1]] # Second Matrix N
+jg = 0.0 # Yearly income
+sl = 0.0 # Hourly income
 
-def product(m, n) : # Function for matrix multiplication
+ghk = ''; # Income class
 
-    result = [[sum(a*b for a,b in zip(M_row,N_col)) for N_col in zip(*N)] for M_row in M] # Perform matrix multiplication
+print('Bitte geben Sie den vorgeschlagenen Stundenlohn in Euro an :')
 
-    return result
+sl = input()
 
-map_instance = list(map(product, M, N)) # Multiply two matrices in three different blocks
-reduce_instance = map_instance[0] # Reduce to only first of three blocks
+jg = 12.0*float(sl)*160.0 # Yearly income at average of 160 hours per month.
 
-print(map_instance) # Show result
+print (jg)
+
+if (jg < 15000.0) : ghk = 'Geringverdiener'
+if (jg >= 15000.0 and jg < 50000.0) : ghk = 'Normalverdiener'
+if (jg > 50000.0) : ghk = 'Vielverdiener'
+
+print ('Mit einem Jahresgehalt von'), jg, (' Euro sind Sie : '), ghk

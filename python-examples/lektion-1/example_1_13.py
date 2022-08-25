@@ -1,3 +1,11 @@
+#########################################################################################################################################
+#                                                                                                                                       #
+#    Autor: Dr. A. Schelle (support@krealix.de). Copyright : IU Internationale Hochschule GmbH, Juri-Gagarin-Ring 152, D-99084 Erfurt   #
+#                                                                                                                                       #
+#########################################################################################################################################
+
+# PYTHON ROUTINE zur Normierung von Matrizen #
+
 import os
 from platform import java_ver
 import sys

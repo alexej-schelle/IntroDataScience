@@ -1,36 +1,24 @@
-####################################################################################################################
-#                                                                                                                  #
-#    Autor: Dr. A. Schelle. Copyright : IU Internationale Hochschule GmbH, Juri-Gagarin-Ring 152, D-99084 Erfurt   #
-#                                                                                                                  #
-####################################################################################################################
+#########################################################################################################################################
+#                                                                                                                                       #
+#    Autor: Dr. A. Schelle (support@krealix.de). Copyright : IU Internationale Hochschule GmbH, Juri-Gagarin-Ring 152, D-99084 Erfurt   #
+#                                                                                                                                       #
+#########################################################################################################################################
+
+# PYTHON ROUTINE zur Implementierung der Python pandas Library #
 
 import os
 import sys
 import math
+import numpy
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas
+import pandas as pd
+from IPython.display import display
 
-jg = 0.0 # Yearly income
-sl = 0.0 # Hourly income
+dt = {'Student':["Student 1", "Student 2", "Student 3"], 'Fachrichtung' : ["Fachrichtung Student 1", "Fachrichtung Student 2", "Fachrichtung Student 3"], 
+'Geburtsdatum':["Geburtsdatum Student 1", "Geburtsdatum Student 2", "Geburtsdatum Student 3"]} # Definition of input array
 
-ghk = ''; # Income class
+dt_pandas = pd.DataFrame(dt) # Create Pandas Data Framework (Pandas Table)
 
-print('Bitte geben Sie den vorgeschlagenen Stundenlohn in Euro an :')
-
-sl = input()
-
-jg = 12.0*float(sl)*160.0 # Yearly income at 160 hours per month.
-
-if (jg < 15000.0) : ghk = 'Geringverdiener'
-if (jg >= 15000.0) : ghk = 'Normalverdiener'
-
-print('Bitte geben Sie den vorgeschlagenen Stundenlohn in Euro an :')
-
-sl_neu = input()
-
-jg_neu = 12.0*float(sl_neu)*160.0 # Yearly income at 160 hours per month.
-
-if (jg < 15000.0 and jg_neu < 15000) : ghk = 'Geringverdiener'
-if (jg >= 15000.0 and jg_neu < 15000) : ghk = 'Geringverdiener bis Normalverdiener'
-if (jg < 15000.0 and jg_neu > 15000) : ghk = 'Geringverdiener bis Normalverdiener'
-if (jg >= 15000.0 and jg_neu > 15000) : ghk = 'Normalverdiener'
-
-print (('Mit einem durchschnittlichen Jahresgehalt von'), float(jg+jg_neu)/2.0, (' Euro sind Sie : '), ghk)
+display(dt_pandas) # Show Pandas Table

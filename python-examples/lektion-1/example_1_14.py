@@ -1,11 +1,14 @@
+# Original from : 
 # Authors: Clay Woolam <clay@woolam.org>
 # License: BSD
 
-##########################################################################################################################################
-#                                                                                                                                        #
-#    Modified and commented by : Dr. A. Schelle. Copyright : IU Internationale Hochschule GmbH, Juri-Gagarin-Ring 152, D-99084 Erfurt    #
-#                                                                                                                                        #
-##########################################################################################################################################
+#############################################################################################################################################################
+#                                                                                                                                                           #
+#    Modified and commented by : Dr. A. Schelle (support@krealix.de). Copyright : IU Internationale Hochschule GmbH, Juri-Gagarin-Ring 152, D-99084 Erfurt  #
+#                                                                                                                                                           #
+#############################################################################################################################################################
+
+# PYTHON ROUTINE zur Normierung von Matrizen #
 
 import numpy as np
 import matplotlib.pyplot as plt

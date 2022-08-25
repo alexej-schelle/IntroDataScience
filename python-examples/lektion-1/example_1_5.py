@@ -1,22 +1,23 @@
-####################################################################################################################
-#                                                                                                                  #
-#    Autor: Dr. A. Schelle. Copyright : IU Internationale Hochschule GmbH, Juri-Gagarin-Ring 152, D-99084 Erfurt   #
-#                                                                                                                  #
-####################################################################################################################
+#########################################################################################################################################
+#                                                                                                                                       #
+#    Autor: Dr. A. Schelle (support@krealix.de). Copyright : IU Internationale Hochschule GmbH, Juri-Gagarin-Ring 152, D-99084 Erfurt   #
+#                                                                                                                                       #
+#########################################################################################################################################
 
 import os
 import sys
 import math
-import numpy
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas
-import pandas as pd
-from IPython.display import display
 
-dt = {'Student':["Student 1", "Student 2", "Student 3"], 'Fachrichtung' : ["Fachrichtung Student 1", "Fachrichtung Student 2", "Fachrichtung Student 3"], 
-'Geburtsdatum':["Geburtsdatum Student 1", "Geburtsdatum Student 2", "Geburtsdatum Student 3"]} # Definition of input array
+M = [[1,4,3], [2,4,4], [3,3,3]] # First Matrix M
+N = [[2,4,3], [6,6,7], [2,2,1]] # Second Matrix N
 
-dt_pandas = pd.DataFrame(dt) # Create Pandas Data Framework (Pandas Table)
+def product(m, n) : # Function for matrix multiplication
 
-display(dt_pandas) # Show Pandas Table
+    result = [[sum(a*b for a,b in zip(M_row,N_col)) for N_col in zip(*N)] for M_row in M] # Perform matrix multiplication
+
+    return result
+
+map_instance = list(map(product, M, N)) # Multiply two matrices in three different blocks
+reduce_instance = map_instance[0] # Reduce to only first of three blocks
+
+print(map_instance) # Show result

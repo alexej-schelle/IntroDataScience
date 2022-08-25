@@ -1,3 +1,11 @@
+#########################################################################################################################################
+#                                                                                                                                       #
+#    Autor: Dr. A. Schelle (support@krealix.de). Copyright : IU Internationale Hochschule GmbH, Juri-Gagarin-Ring 152, D-99084 Erfurt   #
+#                                                                                                                                       #
+#########################################################################################################################################
+
+# PYTHON ROUTINE zur Berechnung der Kreiszahl pi mit Zufallszahlen #
+
 import os
 from platform import java_ver
 import sys
@@ -8,6 +16,7 @@ import numpy as np
 import pylab
 import matplotlib.pyplot as plt
 import operator
+
 
 n_total = 0
 n_hits = 0
