@@ -12,6 +12,3 @@ example_1_11.py : Python Beispiel zum Gaußschen Grenzwertsatz
 example_1_12.py : Python Beispiel zur Berechnung der Kreiszahl pi mit Zufallszahlen
 example_1_13.py : Python Beispiel zur Normierung von Matrizen
 example_1_14.py : Python Beispiel für einen einfachen Lernalgorithmus
-
-
-# PYTHON ROUTINE zur einfachen Illustration des Aufbaus künstlicher Intelligenz #
