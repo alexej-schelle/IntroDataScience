@@ -8,7 +8,7 @@ Zum Download der Python Übungen, verwenden Sie bitte die Anweisung :
 
 git clone https://github.com/alexej-schelle/intro-data-science.git
 
-Das Passwort für die Zip-Files DLBDSIDS_D_Lektion_x.zip wird Ihnen im Vorlesungsskript zum Kurs mitgeteilt.
+Das Passwort für die Zip-Files DLBDSIDS_D_Lektion_x.zip wird Ihnen in der Vorlesung und im Kurs zum Skript mitgeteilt.
 
 
 
