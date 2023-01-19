@@ -90,4 +90,4 @@ The same for Jupyter files, which are labeled with notebook_example_a_x.ipynb (w
 Password for zip-files associated to the lecture series "Introduction to Data Science" can be received 
 at alexej.schelle.ext@iu.org.
 
-Referenzen zu den einzelnen numerischen Verfahren und Klassen sind in den Pythn Files zu finden.
+References to Ai methods and standards can be found with the different Python files.
