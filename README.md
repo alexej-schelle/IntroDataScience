@@ -10,7 +10,9 @@
 *********************************************************************************************************************
 
 *********************************************************************************************************************
-									    	
+				
+	Datenwissenschaftliche Grundlagen :			
+				
 	example_1_1.py : Berechnen einer Cosinusfunktion			    	
 	example_1_2.py : Pandas Tabelle					    	
 	example_1_3.py : Illustration einer Standard IF-Abfrage		    
@@ -31,13 +33,15 @@
 
 ********************************************************************************************************************
 
+	 Bearbeitung und Darstellungen von Daten mit Python :
+	
 	 example_2_1.py : Vertauschen zweiter Spalten in einem CSV File		    			
 	 example_2_2.py : Auslesen bestimmter Variablen aus einem XML Metadatenfile					
   	 example_2_3.py : Berechnung der Genauigkeit der Untermenge an gegeben Messwerten			
 	 example_2_4.py : Berechnung der Konvergenz bei der Berechnung der Kreiszahl pi mit Zufallszahlen	
 	 example_2_5.py : Berechnung eines quantenmechanischen Wellenfeldes mit Darstellung 			
 			  als 2D Histogramm 								
-	 example_2_6.py : Berechnung und Darstellung von zwei-dimensionalen Graphen mit Scatter Plots																					
+	 example_2_6.py : Berechnung und Darstellung von zwei-dimensionalen Graphen mit Scatter Plots							
 	 example_2_7.py : Berechnung von Graphen mit linearer, vektor-basierter und polynomieller Regression	
 	 example_2_8.py : Vergleich von Anomalien in Datensätzen mit unterschiedlichen Verfahren		
 	 example_2_9.py : Analyse der Genauigkeit von Gesichterkennung per PCA (randomized SVC)   			
@@ -47,6 +51,8 @@
 
 *******************************************************************************************************************
 
+ 	 Analyse und Klassifizierung von Daten in Python :
+ 
 	 example_3_1.py : Veranschaulichung von Use-Cases mit den Routinen pandas, loc and iloc		       
 	 example_3_2.py : Spezifizität und Sensitivität für ein Zweiklassenproblem 			       
 	 example_3_3.py : Analyse und Illustration von Social Network Graphen			        
@@ -56,6 +62,8 @@
 
 *******************************************************************************************************************
   
+ 	 Klassische und Bayes'sche Statstik in Python :
+
 	 example_4_1.py : Berechnung von Gewinnen aus der Monty Hall Strategie	     
 	 example_4_2.py : Berechnung von Gauss-, Binomial- und Poissonverteilungen      			        
 	 example_4_3.py : Vergleich von Anomalien 				     
@@ -64,6 +72,8 @@
 ******************************************************************************************************************
 
 ******************************************************************************************************************
+
+     	  Komplexe AI-Modelle in Python :
 
 	  example_5_1.py : Analyse und Klassifizerung von Strukturen eines Datensatzes aus zwei Komponenten	 
 	  example_5_2.py : Vergleich von LDA und PCA-2D Projektion eines Iris Datensatzes			 
@@ -81,3 +91,4 @@ The same for Jupyter files, which are labeled with notebook_example_a_x.ipynb (w
 Password for zip-files associated to the lecture series "Introduction to Data Science" can be received 
 at alexej.schelle.ext@iu.org.
 
+Referenzen zu den einzelnen numerischen Verfahren und Klassen sind in den Pythn Files zu finden.
