@@ -26,8 +26,8 @@
 	example_1_11.py : Numerischer Beweis Gaußscher Grenzwertsatz	    
 	example_1_12.py : Berechnung der Kreiszahl pi mit Zufallszahlen	           
 	example_1_13.py : Normierung von Matrizen				    
-	example_1_14.py : Berechnung der Kreiszahl pi mit Pyspark	            
-	example_1_15.py : Berechnung der Kreiszahl pi mit Parallel Algorithmus 
+	example_1_14.py : Berechnung der Kreiszahl pi mit PySpark	            
+	example_1_15.py : Berechnung der Kreiszahl pi mit einem Parallelen Algorithmus 
 									    
 ********************************************************************************************************************
 
@@ -35,7 +35,7 @@
 
 	Bearbeitung und Darstellungen von Daten mit Python :
 	
-	example_2_1.py : Vertauschen zweiter Spalten in einem CSV File		    			
+	example_2_1.py : Vertauschen zweier Spalten in einem CSV File		    			
 	example_2_2.py : Auslesen bestimmter Variablen aus einem XML Metadatenfile					
   	example_2_3.py : Berechnung der Genauigkeit der Untermenge an gegeben Messwerten			
 	example_2_4.py : Berechnung der Konvergenz bei der Berechnung der Kreiszahl pi mit Zufallszahlen	
