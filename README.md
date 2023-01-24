@@ -11,7 +11,8 @@
 
 Datenwissenschaftliche Grundlagen in Python :
 
-1.1 
+*********************************************************************************************************************
+
 1.1 : Berechnung einer Cosinusfunktion
 1.2 : Erstellen einer Tabelle mit Pandas
 1.3 : Illustration einer Standard IF-Abfrage (Lohngruppen)
