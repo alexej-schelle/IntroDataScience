@@ -11,6 +11,7 @@
 
 Datenwissenschaftliche Grundlagen in Python :
 
+*********************************************************************************************************************
 
 	1.1 : Berechnung einer Cosinusfunktion
 	1.2 : Erstellen einer Tabelle mit Pandas
@@ -30,7 +31,7 @@ Datenwissenschaftliche Grundlagen in Python :
 
 *********************************************************************************************************************
 
-	Bearbeitung und Darstellungen von Daten in Python :
+Bearbeitung und Darstellungen von Daten in Python :
 
 *********************************************************************************************************************
 
@@ -47,7 +48,7 @@ Datenwissenschaftliche Grundlagen in Python :
 
 *********************************************************************************************************************
 
-	Analyse und Klassifizierung von Daten in Python :
+Analyse und Klassifizierung von Daten in Python :
 
 *********************************************************************************************************************
 
@@ -58,7 +59,7 @@ Datenwissenschaftliche Grundlagen in Python :
 
 *********************************************************************************************************************
 
-	Klassische und Bayes'sche Statistik in Python :
+Klassische und Bayes'sche Statistik in Python :
 
 *********************************************************************************************************************
 
@@ -69,7 +70,7 @@ Datenwissenschaftliche Grundlagen in Python :
 
 *********************************************************************************************************************
 
-	Komplexe AI-Modelle in Python :
+Komplexe AI-Modelle in Python :
 
 *********************************************************************************************************************
 
