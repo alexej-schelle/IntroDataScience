@@ -11,20 +11,20 @@
 
 Datenwissenschaftliche Grundlagen in Python :
 
-1.1 : Berechnung einer Cosinusfunktion			    	
-1.2 : Erstellen einer Tabelle mit Pandas					    	
-1.3 : Illustration einer Standard IF-Abfrage (Lohngruppen)	    
-1.4 : Illustration des Aufbaus künstlicher Intelligenz aus 1.3	    
-1.5 : Matrixmultiplikation mit MapReduce			    
-1.6 : Berechnung von Eigenwerten		    
-1.7 : Ableitung einer tanh-Funktion		   
-1.8 : Wellenpaket aus einer tanh-Funktion			    	
-1.9 : Maximal- und Minimalwerte der tanh-Funktion			    
+1.1 : Berechnung einer Cosinusfunktion
+1.2 : Erstellen einer Tabelle mit Pandas
+1.3 : Illustration einer Standard IF-Abfrage (Lohngruppen)
+1.4 : Illustration des Aufbaus künstlicher Intelligenz aus 1.3
+1.5 : Matrixmultiplikation mit MapReduce
+1.6 : Berechnung von Eigenwerten
+1.7 : Ableitung einer tanh-Funktion
+1.8 : Wellenpaket aus einer tanh-Funktion
+1.9 : Maximal- und Minimalwerte der tanh-Funktion
 1.10 : Minimierung der Lernrate (Englisch: Learning Rate)
-1.11 : Gaußsche Zufallsvariablen	    
-1.12 : Modellierung von Zufallszahlen	           
-1.13 : Matrixnormierung				    
-1.14 : Berechnung der Kreiszahl Pi mit PySpark	            
+1.11 : Gaußsche Zufallsvariablen
+1.12 : Modellierung von Zufallszahlen
+1.13 : Matrixnormierung
+1.14 : Berechnung der Kreiszahl Pi mit PySpark
 1.15 : Berechnung der Kreiszahl Pi mit parallelem Algorithmus 
 
 *********************************************************************************************************************
