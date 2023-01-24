@@ -10,7 +10,9 @@
 *********************************************************************************************************************
 
 	Datenwissenschaftliche Grundlagen in Python :
-	
+
+*********************************************************************************************************************
+
 	1.1 : Berechnung einer Cosinusfunktion
 	1.2 : Erstellen einer Tabelle mit Pandas
 	1.3 : Illustration einer Standard IF-Abfrage (Lohngruppen)
@@ -31,6 +33,8 @@
 
 	Bearbeitung und Darstellungen von Daten in Python :
 
+*********************************************************************************************************************
+
 	2.1 : Import von Primärdaten	
 	2.2 : Auswertung eines Metadatensatzes
 	2.3 :  Berechnung der Genauigkeitvon externen Daten	
@@ -46,6 +50,8 @@
 
 	Analyse und Klassifizierung von Daten in Python :
 
+*********************************************************************************************************************
+
 	3.1 : Anwendung von Pandas, Loc and iLoc		       
 	3.2 : ROC-Diagramm für ein zwei Klassenproblem 
 	3.3 : Berchnung der Gewinne aus einer Lotterie      
@@ -55,6 +61,8 @@
 
 	Klassische und Bayes'sche Statistik in Python :
 
+*********************************************************************************************************************
+
 	4.1 : Berechnung von Gewinnen aus der Monty Hall Strategie	     
 	4.2 : Numerische Approximation von Zufallsgrößen
 	4.3 : Berechnung der Kovarianz mit Pandas und NumPy 				     
@@ -63,6 +71,8 @@
 *********************************************************************************************************************
 
 	Komplexe AI-Modelle in Python :
+
+*********************************************************************************************************************
 
 	5.1 : Analyse und Klassifizerung eines zwei-komponentigen Datensatzes
 	5.2 : Hauptkomponentenanalyse
