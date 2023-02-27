@@ -5,7 +5,7 @@
 	
 *********************************************************************************************************************
 										    	       	
- 	Copyright : IU Internationale Hochschule GmbH, Juri-Gagarin-Ring 152, D-99084 Erfurt	       		 
+ 	Copyright: IU Internationale Hochschule GmbH, Juri-Gagarin-Ring 152, D-99084 Erfurt	       		 
 										    	       	
 *********************************************************************************************************************
 
@@ -37,9 +37,9 @@ Bearbeitung und Darstellungen von Daten in Python :
 
 	2.1 : Import von Primärdaten	
 	2.2 : Auswertung eines Metadatensatzes
-	2.3 :  Berechnung der Genauigkeitvon externen Daten	
-	2.4 : Bestimmung der numerischen Abweichungen bei der Berechnung von Pi.	
-	2.5 : Überlagertes Quantisiertes Feld
+	2.3 : Berechnung der Genauigkeitvon externen Daten	
+	2.4 : Bestimmung der numerischen Abweichungen bei der Berechnung von Pi	
+	2.5 : Überlagertes quantisiertes Feld
 	2.6 : Zwei-dimensionale lineare Interpolation
 	2.7 : Vergleich von Vektor- und polynomieller Regression	
 	2.8 : Robust Variance, OneClassSVM, Isolation Forest, Local Outliers
@@ -53,8 +53,8 @@ Analyse und Klassifizierung von Daten in Python :
 *********************************************************************************************************************
 
 	3.1 : Anwendung von Pandas, Loc and iLoc		       
-	3.2 : ROC-Diagramm für ein zwei Klassenproblem 
-	3.3 : Berchnung der Gewinne aus einer Lotterie      
+	3.2 : ROC-Diagramm für ein Zweiklassenproblem 
+	3.3 : Berechnung der Gewinne aus einer Lotterie      
 	3.4 : Analyse von Netzwerkgraphen    
 
 *********************************************************************************************************************
@@ -74,13 +74,13 @@ Komplexe AI-Modelle in Python :
 
 *********************************************************************************************************************
 
-	5.1 : Analyse und Klassifizerung eines zwei-komponentigen Datensatzes
+	5.1 : Analyse und Klassifizierung eines zwei-komponentigen Datensatzes
 	5.2 : Hauptkomponentenanalyse
 	5.3 : Exakte, inkrementelle und zufällige PCA			 
 	5.4 : Kernel Hauptkomponentenanalyse 
 	5.5 : Sparse Coding vs. Dictionary Learning		 
 	5.6 : Faktorenanalyse im IRIS-Datensatz	
-	5.7 : Zerlegung eines gemischtes Siganls in Einzelkomponenten mittels PCA	 
+	5.7 : Zerlegung eines gemischtes Signals in Einzelkomponenten mittels PCA	 
 	5.8 : Analyse von Textinhalten	
 
 *********************************************************************************************************************
