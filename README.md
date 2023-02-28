@@ -37,7 +37,7 @@ Bearbeitung und Darstellungen von Daten in Python :
 
 	2.1 : Import von Primärdaten	
 	2.2 : Auswertung eines Metadatensatzes
-	2.3 : Berechnung der Genauigkeitvon externen Daten	
+	2.3 : Berechnung der Genauigkeit von externen Daten	
 	2.4 : Bestimmung der numerischen Abweichungen bei der Berechnung von Pi	
 	2.5 : Überlagertes quantisiertes Feld
 	2.6 : Zwei-dimensionale lineare Interpolation
