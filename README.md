@@ -88,7 +88,7 @@ Komplexe AI-Modelle in Python :
 	The same for Jupyter files, which are labeled with notebook_example_a_x.ipynb (where a = 1...5, and x variable).
 
 	Password for zip-files associated to the lecture series "Introduction to Data Science" can be received 
-	at alexej.schelle.ext@iu.org.
+	(only for IU members and associates) at alexej.schelle.ext@iu.org.
 
 	References to AI methods and standards can be found with the different Python files.
 
