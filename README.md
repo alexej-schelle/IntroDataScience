@@ -1,7 +1,7 @@
 
 *********************************************************************************************************************
 
- Supplementary Python and Jupyter Files for Lecturers of the IU-Course on "Introduction to Data Science" (2023/2024) 
+ Supplementary Python and Jupyter Files for Lecturers of the IU-Course on "Introduction to Data Science" 
 	
 *********************************************************************************************************************
 										    	       	
