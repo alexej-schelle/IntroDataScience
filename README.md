@@ -90,6 +90,6 @@ Komplexe AI-Modelle in Python :
 	Password for zip-files associated to the lecture series "Introduction to Data Science" can be received 
 	(only for IU members and associates) at alexej.schelle.ext@iu.org.
 
-	References to AI methods and standards can be found with the different Python files.
+	References to AI methods and standards can be found within the different Python files.
 
 *********************************************************************************************************************
